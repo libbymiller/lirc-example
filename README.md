@@ -1,6 +1,6 @@
 # lirc example
 
-The idea here is to control a chromium webpage via a simple remote control (the usecase I am using it for is full-screen TV-like prototypes). 
+The idea here is to control a chromium webpage via a simple remote control (the usecase I am using it for is full-screen TV-like prototypes). More information is in this blog post: https://planb.nicecupoftea.org/2016/12/23/lirc-on-a-raspberry-pi-for-a-silver-apple-remote/
 
 ## What you need to do
 
