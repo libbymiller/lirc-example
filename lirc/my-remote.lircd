@@ -1,0 +1,47 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0-pre1(default) on Thu Oct 27 14:02:20 2016
+#
+# contributed by 
+#
+# brand:                       my-remote.lircd
+# model no. of remote control: Apple TV 2nd gen silver
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  my-remote.lircd
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9084  4422
+  one           609  1615
+  zero          609   512
+  ptrail        609
+  repeat       9084  2191
+  pre_data_bits   16
+  pre_data       0x77E1
+  post_data_bits  8
+  post_data      0xEB
+  gap          108005
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_UP                   0xD0
+          KEY_RIGHT                0xE0
+          KEY_DOWN                 0xB0
+          KEY_LEFT                 0x10
+          KEY_ENTER                0xBA 0x20
+          KEY_MENU                 0x40
+          KEY_PLAYPAUSE            0x7A 0x20
+      end codes
+
+end remote
+
+

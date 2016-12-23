@@ -1,0 +1,37 @@
+begin
+ prog = irexec
+ button = KEY_DOWN
+ config = /home/pi/keycommands/down.sh
+end
+
+begin
+ prog = irexec
+ button = KEY_UP
+ config = /home/pi/keycommands/up.sh
+end
+
+begin
+ prog = irexec
+ button = KEY_ENTER
+ config = /home/pi/keycommands/space.sh
+end
+
+begin
+ prog = irexec
+ button = KEY_RIGHT
+ config = /home/pi/keycommands/space.sh
+end
+
+begin
+ prog = irexec
+ button = KEY_LEFT
+ config = /home/pi/keycommands/left.sh
+end
+
+
+begin
+ prog = irexec
+ button = KEY_MENU
+ config = /home/pi/keycommands/reload.sh
+end
+
