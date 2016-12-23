@@ -6,7 +6,8 @@ The idea here is to control a chromium webpage via a simple remote control (the 
 
 * Gather hardware
 * Image an SD card for the Pi
-* 
+* Install pre-requisites and this repo
+* Make it all run on boot
 
 ## Hardware
 
