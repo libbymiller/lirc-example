@@ -104,7 +104,7 @@ add before ```exit 0```
 
 ## Reboot
 
-It should boot into the tiny python server and you should be able to navigate using the remote.
+It should boot into the tiny python server and you should be able to see the javascript keycodes displayed by clicking the remote.
 
 ## Links
 
