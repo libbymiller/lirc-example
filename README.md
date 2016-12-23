@@ -95,7 +95,7 @@ Make the server and irexec run on boot by adding to rc.local
 
 add before ```exit 0```
 
-    cd /home/pi/lirc-example/server && /usr/bin/python -m SimpleHTTPServer 3000 static &
+    cd /home/pi/lirc-example/server && /usr/bin/python -m SimpleHTTPServer 3000 &
 
     (sleep 3;
     sudo -u pi irexec -d
