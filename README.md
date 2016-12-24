@@ -34,7 +34,7 @@ i.e. in this gpio diagram: https://www.raspberrypi.org/documentation/usage/gpio-
 
 ## Image a Micro SD card
 
-Download a full Jessie, not lite or NOOBS. I'm asumming 2016-09-23 release and a Pi3.
+Download a full Jessie, not lite or NOOBS. I'm asumming 2016-09-23 release and a Pi3. This is on a Mac.
 
 (N is a number, usually 2 for me)
 
@@ -44,11 +44,15 @@ Download a full Jessie, not lite or NOOBS. I'm asumming 2016-09-23 release and a
 
 While the SD card is still in your main machine, in config enable lirc module
 
-    sudo pico /boot/config.txt
+    sudo pico /Volumes/boot/config.txt
 
 Uncomment this to enable the lirc-rpi module
 
     dtoverlay=lirc-rpi
+    
+Depending on your version of Jessie, you may need to enable ssh (again before ejecting)
+
+    touch /Volumes/boot/ssh
 
 
 ## Install prerequisites
